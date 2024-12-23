@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div style="background-color:grey;">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN PAGE</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .login-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: grey;
+    }
+    .login-form {
+      width: 100%;
+      max-width: 400px;
+      padding: 15px;
+      border: 1px solid #0b0707;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(103, 99, 99, 0.1);
+    }
+    .login-form h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+  <ul class="nav"  style="background-color: white;">
+    <li class="nav-item">
+      <a class="nav-link"  href="./ABOUT.HTML">MORE ABOUT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./contribution.html">HOW CAN YOU HELP US </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./past_work.html">PAST WORK</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="./UEVENTS.HTML">UPCOMING EVENTS</a>
+    </li>
+  </ul>
+</head>
+<body>
+    <h1>Parivartan</h1>
+    <p>prayas badlav ka</p>
+    <center>
+    <img src="./Preview.png">
+    </center>
+    <hr>
+    <div style="color: orange;">
+        CELEBRATING AZADI KA AMRIT MAHOTSAV : INDIA @ 76
+    </div>
+    <marquee>we are on a mission . Help us by joining and supporting our initiatives to make a better india  </marquee>
+    <HR>
+  <div class="container login-container">
+    <div class="login-form">
+      <h2 class="text-center">LOGIN </h2>
+      <form>
+
+        <div class="form-group">
+          <label for="name"> Name</label>
+          <input type="name" class="form-control" id="name" placeholder="enter your name">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" onclick="alert('You are logged in');">Login</button>
+      </form>
+      <p>CONINUE WITHOUT LOGIN <a href="./NGO_DEMO_WEBSITE.html"> home page</a></p>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</div>
+
+</body>
+<ul class="pagination">
+    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="./NGO_DEMO_WEBSITE.html">Home</a></li>
+    <li class="page-item"><a class="page-link" href="./contribution.html">help us</a></li>
+    <li class="page-item"><a class="page-link" href="./NGO_DEMO_WEBSITE.html">Next</a></li>
+  </ul>
+</html>
